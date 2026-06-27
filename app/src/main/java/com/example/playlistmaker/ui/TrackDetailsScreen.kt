@@ -219,6 +219,7 @@ fun TrackDetailsScreen(
         }
     }
 }
+
 fun Int.toDurationString(): String {
     val totalSeconds = this / 1000
     val minutes = totalSeconds / 60
